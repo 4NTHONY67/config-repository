@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      username: root
+      database: nttbank
+      password: admin
+      port: '27017'
+      host: localhost

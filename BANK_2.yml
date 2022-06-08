@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      username: root
+      database: nttbank
+      password: '1234'
+      port: '27017'
+      host: localhost
+type:
+  transaction:
+    exception: Unknown transaction type
+dup:
+  business:
+    exception: Business already registered
+  person:
+    exception: Person already registered
+balance:
+  transaction:
+    exception: Not enough funds
+logging:
+  config: classpath:logback.xml
