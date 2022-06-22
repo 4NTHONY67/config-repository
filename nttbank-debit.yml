@@ -1,0 +1,14 @@
+server:
+  port: 8086
+eureka:
+  client:
+    serviceUrl:
+       defaultZone: http://localhost:8082/eureka/
+spring:
+  data:
+    mongodb:
+      username: root
+      database: nttbank
+      password: '1234'
+      port: '27017'
+      host: localhost
