@@ -9,6 +9,6 @@ spring:
     mongodb:
       username: root
       database: nttbank
-      password: 1234
+      password: admin
       port: 27017
       host: localhost
