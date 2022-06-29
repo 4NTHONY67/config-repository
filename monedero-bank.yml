@@ -8,7 +8,7 @@ spring:
   data:
     mongodb:
       username: root
-      database: monedero
+      database: nttbank
       password: admin
       port: '27017'
       host: localhost
